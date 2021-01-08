@@ -1,0 +1,25 @@
+.breadCrumbsContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 16px;
+
+  .breadCrumbLink {
+    color: #0066ff;
+    margin-left: 24px;
+    cursor: pointer;
+  }
+}
+
+.titleContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+
+.deviceIntegrationItem {
+  cursor: pointer;
+}
+
+.deviceIntegrationItem:hover {
+  background: #f3f9ff;
+}

@@ -1,0 +1,15 @@
+.filtersContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 24px;
+
+  .input {
+    width: 300px;
+    margin-right: 16px;
+  }
+
+  .svg {
+    display: inline-block;
+    vertical-align: middle;
+  }
+}

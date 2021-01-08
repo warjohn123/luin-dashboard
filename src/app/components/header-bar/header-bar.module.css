@@ -1,0 +1,14 @@
+.AppHeader {
+  display: flex;
+  justify-content: space-between;
+}
+
+.dropdownContainer {
+  display: inline-block;
+  margin-left: 40px;
+  cursor: pointer;
+}
+
+.logo {
+  vertical-align: middle;
+}

@@ -1,0 +1,61 @@
+.inquiries-list-container {
+  overflow-y: auto;
+  height: calc(100vh - 66px);
+}
+
+.inquiry-item-card {
+  margin-bottom: 8px !important;
+
+  .content-container {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 14px;
+    width: calc(100% - 34px);
+
+    * {
+      font-size: 12px;
+    }
+
+    .name {
+      font-weight: bold;
+    }
+
+    .time {
+      color: #aaa;
+    }
+  }
+}
+
+.legends-container {
+  * {
+    font-size: 12px;
+  }
+
+  .legend-item {
+    margin-left: 24px;
+
+    svg {
+      vertical-align: middle;
+      margin-right: 8px;
+    }
+  }
+}
+
+.subscribers-list-container {
+  margin-top: 21px;
+  overflow-y: auto;
+  height: calc(100vh - 66px);
+
+  .ant-card-body {
+    padding: 16px;
+  }
+
+  * {
+    font-size: 12px;
+  }
+
+  .subscriber-col {
+    padding-right: 9px;
+    padding-bottom: 8px;
+  }
+}

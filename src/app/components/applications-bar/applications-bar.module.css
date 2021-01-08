@@ -1,0 +1,38 @@
+div.ApplicationBarContainer {
+  background: #fff;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 16px;
+  padding-bottom: 0;
+  box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.05);
+  position: absolute;
+  z-index: 3;
+  top: 66px;
+  width: 100%;
+}
+
+div.ApplicationItem {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 16px;
+  padding-right: 16px;
+  border: 1px solid #eee;
+  border-radius: 30px;
+  margin-right: 16px;
+  margin-bottom: 16px;
+  cursor: pointer;
+}
+
+.title {
+  margin-left: 8px;
+}
+
+div.CreateApplication {
+  padding-top: 17px;
+  padding-bottom: 17px;
+}
+
+div.CreateApplication:hover {
+  background: #f3f9ff;
+  border: 1px solid #83abfb;
+}

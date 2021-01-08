@@ -1,0 +1,17 @@
+div.emptyApplicationPlaceholder {
+  /* background: red; */
+  text-align: center;
+}
+
+.createAppButton {
+  font-size: 14px;
+  border-radius: 4px;
+  margin-top: 15px;
+}
+
+.avatarPlaceholder {
+  width: 10vw;
+  height: 10vw;
+  margin-top: 10vh;
+  margin-bottom: 30px;
+}

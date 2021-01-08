@@ -1,0 +1,15 @@
+.subscriberItemCard {
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.subscriberItemCard:hover {
+  border: 1px solid #83abfb;
+  background: #f3f9ff;
+}
+
+.avatar {
+  display: inline-block;
+  margin-right: 16px;
+  vertical-align: middle;
+}

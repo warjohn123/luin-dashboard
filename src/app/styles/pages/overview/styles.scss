@@ -1,0 +1,30 @@
+.activity-logs-container {
+  h5 {
+    margin-bottom: 16px !important;
+  }
+
+  .activity-log-item {
+    p {
+      margin-bottom: 8px;
+    }
+
+    .time {
+      color: #777;
+    }
+  }
+}
+
+.label {
+  margin-bottom: 8px;
+}
+
+.value {
+  color: #777;
+}
+
+.edit-details {
+  cursor: pointer;
+  font-size: 12px;
+  display: inline-block;
+  color: #0066ff;
+}

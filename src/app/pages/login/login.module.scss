@@ -1,0 +1,48 @@
+.LoginPage {
+  background: linear-gradient(180deg, #30c7f7 0%, #409cf2 100%);
+  min-height: 100vh;
+
+  .Logo {
+    margin-bottom: 30px;
+    width: 100px;
+    height: 100px;
+  }
+
+  .FormContainer {
+    padding: 24px;
+  }
+
+  .LoginCard {
+    width: 450px;
+    border-radius: 12px;
+    box-shadow: 0px 1px 4px 0px #000000 15%;
+
+    .LoginTitle {
+      text-align: center;
+      margin-bottom: 42px;
+      color: #265cac;
+    }
+
+    .LoginButton {
+      background: #265cac;
+      margin-top: 5px;
+      width: 100%;
+      border-radius: 4px;
+      font-size: 14px;
+    }
+
+    .Footer {
+      background: #fafafa;
+      text-align: center;
+      padding: 30px;
+      border-bottom-right-radius: 12px;
+      border-bottom-left-radius: 12px;
+
+      .SignupText {
+        color: #0054a0;
+        text-decoration: underline;
+        cursor: pointer;
+      }
+    }
+  }
+}

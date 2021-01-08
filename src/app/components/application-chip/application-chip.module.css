@@ -1,0 +1,20 @@
+div.ApplicationChip {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 16px;
+  padding-right: 16px;
+  border: 1px solid #eee;
+  border-radius: 30px;
+  margin-right: 16px;
+  margin-bottom: 16px;
+  cursor: pointer;
+}
+
+div.ApplicationChip:hover {
+  background: #f3f9ff;
+  border: 1px solid #83abfb;
+}
+
+span.ApplicationTitle {
+  margin-left: 8px;
+}

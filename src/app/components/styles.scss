@@ -1,0 +1,24 @@
+.AppHeader {
+  display: flex;
+  justify-content: space-between;
+
+  .dropdown-container {
+    display: inline-block;
+    margin-left: 40px;
+    cursor: pointer;
+  }
+
+  .avatar {
+    margin-right: 8px;
+    vertical-align: middle;
+  }
+
+  .ellipses {
+    margin-left: 11px;
+    vertical-align: middle;
+  }
+}
+
+.logo {
+  vertical-align: middle;
+}
